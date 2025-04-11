@@ -56,8 +56,9 @@ pip install -r requirements.txt
 │   ├── graphs.py           # Script Python per generare i grafici presenti nella cartella "graphs/"
 │   ├── ema_no_cap_files/   # File inerenti alla strategia di early stopping EMA (SENZA limite superiore)
 │   └── utility_files/      # File inerenti alla strategia di early stopping Utility
-├── requirements.txt        # Elenco delle dipendenze Python
-└── README.md
+├── LICENSE.md
+├── README.md
+└── requirements.txt        # Elenco delle dipendenze Python
 ```
 
 Spostare la cartella ```codecarbon/``` presente nella cartella ```deps/``` nella cartella delle dipendenze dell'ambiente di lavoro.
