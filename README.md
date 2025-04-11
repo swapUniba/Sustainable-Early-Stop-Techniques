@@ -28,8 +28,11 @@ Il tracciamento delle emissioni è stato reso possibile attraverso la libreria [
 Ambiente di sviluppo usato in fase sperimentale:<br>
 ```python/3.10.8--gcc--8.5.0```  + (opzionale) ```cuda/12.1```
 
-Requisiti di sistema: [requirements.txt](https://github.com/Vincy02/Sustainable-Early-Stop-Techniques/blob/main/requirements.txt)
-<br><br>
+Requisiti di sistema: [requirements.txt](https://github.com/swapUniba/Sustainable-Early-Stop-Techniques/blob/main/requirements.txt)
+```
+pip install -r requirements.txt
+```
+<br>
 
 ---
 
@@ -69,8 +72,8 @@ Di default nella cartella ```src/``` presente nella root del progetto sono prese
 ---
 
 Per eseguire l'intero programma è possibile runnare direttamente il ```run.py``` presente nella cartella ```src```:
-```python
-$ python src/run.py 
+```
+python src/run.py 
 ```
 
 Oppure se si volesse eseguire un modello/i e dataset in particolare (specificando debitamente i paramentri della metodo early stopping in uso), ecco dei "template" del codice da eseguire:
@@ -79,16 +82,16 @@ Oppure se si volesse eseguire un modello/i e dataset in particolare (specificand
     <strong>[Utility]</strong>
 </p>
 
-```python
-$ python src/tracker.py --dataset={dataset} --model={model} --max_emission_step={max_emission_step} --trade_off={trade_off}
+```
+python src/tracker.py --dataset={dataset} --model={model} --max_emission_step={max_emission_step} --trade_off={trade_off}
 ```
 <br>
 <p align="center">
     <strong>[EMA]</strong>
 </p>
 
-```python
-$ python src/tracker.py --dataset={dataset} --model={model} --tolerance_step={tolerance_step} --smoothing_factor={smoothing_factor}
+```
+python src/tracker.py --dataset={dataset} --model={model} --tolerance_step={tolerance_step} --smoothing_factor={smoothing_factor}
 ```
 <br>
 
