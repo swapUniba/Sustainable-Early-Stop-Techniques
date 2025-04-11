@@ -1,0 +1,2 @@
+recall@10,mrr@10,ndcg@10,hit@10,map@10,precision@10,gauc,itemcoverage@10,averagepopularity@10,giniindex@10,shannonentropy@10,tailpercentage@10,run_id,project_name
+0.1166,0.369,0.1972,0.6399,0.1116,0.1555,0.9011,0.2174,1552.552,0.9652,0.0063,0.0,b79065a4-8bbb-4442-8235-40c8d740eb56,MOVIELENS_1M_MULTIDAE_DEFAULT_PARAM_1742646785

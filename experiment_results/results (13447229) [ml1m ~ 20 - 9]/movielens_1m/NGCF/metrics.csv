@@ -1,0 +1,2 @@
+recall@10,mrr@10,ndcg@10,hit@10,map@10,precision@10,gauc,itemcoverage@10,averagepopularity@10,giniindex@10,shannonentropy@10,tailpercentage@10,run_id,project_name
+0.1468,0.4265,0.2425,0.7114,0.1444,0.1934,0.9221,0.2646,1304.5768,0.9337,0.0059,0.0,02c0364a-e54c-4cfe-bde2-7d59fe87b205,MOVIELENS_1M_NGCF_DEFAULT_PARAM_1741145470

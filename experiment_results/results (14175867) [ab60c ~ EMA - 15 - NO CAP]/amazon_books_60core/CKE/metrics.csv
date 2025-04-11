@@ -1,0 +1,2 @@
+recall@10,mrr@10,ndcg@10,hit@10,map@10,precision@10,gauc,itemcoverage@10,averagepopularity@10,giniindex@10,shannonentropy@10,tailpercentage@10,run_id,project_name
+0.0904,0.0537,0.0527,0.1383,0.0344,0.0156,0.9055,0.5386,137.1135,0.8909,0.0012,0.0009,b30681ce-1184-4100-af9a-1a4d14ce12be,AMAZON_BOOKS_60CORE_CKE_DEFAULT_PARAM_1742595383

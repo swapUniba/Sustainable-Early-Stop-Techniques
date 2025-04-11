@@ -1,0 +1,2 @@
+recall@10,mrr@10,ndcg@10,hit@10,map@10,precision@10,gauc,itemcoverage@10,averagepopularity@10,giniindex@10,shannonentropy@10,tailpercentage@10,run_id,project_name
+0.0213,0.0427,0.0199,0.117,0.0084,0.0137,0.9321,0.0287,235.2342,0.995,0.0037,0.0,d12ae360-28cb-463b-8d12-e7128e8fa9dd,AMAZON_BOOKS_60CORE_DGCF_DEFAULT_PARAM_1742106056
