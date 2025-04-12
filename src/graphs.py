@@ -575,14 +575,14 @@ for experiment_path in experiments:
 
 
 #ml1m
-compare_experiments('movielens_1m', ml1m_first_sol + [classic_datasets_path], 'ml1m_first_sol')
-compare_experiments('movielens_1m', ml1m_second_sol_CAP + [classic_datasets_path], 'ml1m_second_sol_CAP')
-compare_experiments('movielens_1m', ml1m_second_sol_NO_CAP + [classic_datasets_path], 'ml1m_second_sol_NO_CAP')
+compare_experiments('movielens_1m', ml1m_first_sol[::-1] + [classic_datasets_path], 'ml1m_first_sol')
+compare_experiments('movielens_1m', ml1m_second_sol_CAP[::-1] + [classic_datasets_path], 'ml1m_second_sol_CAP')
+compare_experiments('movielens_1m', ml1m_second_sol_NO_CAP[::-1] + [classic_datasets_path], 'ml1m_second_sol_NO_CAP')
 
 #ab60c
-compare_experiments('amazon_books_60core', ab60c_first_sol + [classic_datasets_path], 'ab60c_first_sol')
-compare_experiments('amazon_books_60core', ab60c_second_sol_CAP + [classic_datasets_path], 'ab60c_second_sol_CAP')
-compare_experiments('amazon_books_60core', ab60c_second_sol_NO_CAP + [classic_datasets_path], 'ab60c_second_sol_NO_CAP')
+compare_experiments('amazon_books_60core', ab60c_first_sol[::-1] + [classic_datasets_path], 'ab60c_first_sol')
+compare_experiments('amazon_books_60core', ab60c_second_sol_CAP[::-1] + [classic_datasets_path], 'ab60c_second_sol_CAP')
+compare_experiments('amazon_books_60core', ab60c_second_sol_NO_CAP[::-1] + [classic_datasets_path], 'ab60c_second_sol_NO_CAP')
 
 
 metrics_list = ['recall@10', 'giniindex@10', ] # 'giniindex@10' - 'recall@10'
